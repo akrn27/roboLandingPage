@@ -15,7 +15,7 @@ const styles = makeStyles({
     }
 })
 
-function Grid() {
+function Grid(props) {
     const {icon, title, btnTitle} = props;
     const classes = styles();
     return (
