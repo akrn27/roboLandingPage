@@ -1,5 +1,5 @@
 import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
-import CustomBtn from './components/CustomBtn';
+import Navbar from './components/Navbar.js'
 import './App.css';
 
 
@@ -32,7 +32,7 @@ function App() {
   return (
     <div className="App">
       <ThemeProvider theme={theme}>
-        
+        <Navbar />
       </ThemeProvider>
     </div>
   );
